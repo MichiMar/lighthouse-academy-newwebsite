@@ -1,0 +1,58 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $marfil;
+
+  .title-wrapper {
+    display: flex;
+    align-content: center;
+    padding: 30px;
+    margin: 0;
+
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0px;
+
+      img {
+        height: 50px;
+      }
+    }
+
+    .academy-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin: 0px;
+      font-size: 0.65em;
+      text-decoration: none;
+
+      a:active {
+        color: $principal;
+      }
+    }
+  }
+
+  .menu-burger-bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: $principal;
+
+    .btn {
+      text-decoration: none;
+      color: $yellow;
+      padding: 15px;
+      margin: 0px;
+      background-color: transparent;
+      border: none;
+
+      &:hover {
+        background-color: $principal-dark;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+
+  .home-image {
+    justify-content: center;
+    img {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  h2 {
+    color: $principal;
+  }
+}
