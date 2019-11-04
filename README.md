@@ -2,5 +2,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Lighthouse Montessori Academy
 
-##New website in construction
+## New website in construction
 
