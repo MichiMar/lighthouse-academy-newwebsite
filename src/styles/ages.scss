@@ -1,0 +1,19 @@
+.ages-home-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+
+  .age-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+  }
+  img {
+    width: 50vw;
+    height: 50%;
+    border-radius: 10px 10px;
+    box-shadow: black rgba(0, 0, 0, 1.3);
+  }
+}

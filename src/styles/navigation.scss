@@ -10,12 +10,8 @@
     margin: 0;
 
     .logo {
-      display: flex;
-      justify-content: flex-start;
-      margin: 0px;
-
       img {
-        height: 50px;
+        height: 100px;
       }
     }
 
@@ -27,8 +23,9 @@
       font-size: 0.65em;
       text-decoration: none;
 
-      a:active {
+      a {
         color: $principal;
+        text-decoration: none;
       }
     }
   }

@@ -1,0 +1,29 @@
+.content-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+
+  .title {
+    color: $principal;
+    text-align: center;
+  }
+
+  .text-content {
+    color: $black;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    .general-subtitle {
+      color: $principal;
+      text-align: center;
+      font-size: 1.25em;
+    }
+
+    p {
+      font-size: 1.25em;
+    }
+  }
+}

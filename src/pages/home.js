@@ -1,8 +1,11 @@
 import React from "react";
 import { Slider, Slide, Caption } from "react-materialize";
 
-import ActivitiesIndex from "../activities/activities";
+import ActivitiesIndex from "./home-sections/activities";
 import Image1 from "../img/img-ex.jpg";
+import Image2 from "../img/class-time.jpg";
+import Image3 from "../img/class-time3.jpg";
+import Ages from "./home-sections/ages";
 
 export default class Home extends React.Component {
   constructor() {
@@ -36,13 +39,13 @@ export default class Home extends React.Component {
                 <h5>Small Slogan!</h5>
               </Caption>
             </Slide>
-            <Slide image={Image1}>
+            <Slide image={Image2}>
               <Caption>
                 <h3>this is the big Tagline!</h3>
                 <h5>Small Slogan!</h5>
               </Caption>
             </Slide>
-            <Slide image={Image1}>
+            <Slide image={Image3}>
               <Caption>
                 <h3>this is the big Tagline!</h3>
                 <h5>Small Slogan!</h5>
@@ -52,7 +55,7 @@ export default class Home extends React.Component {
         </div>
 
         <ActivitiesIndex />
-        <h2>Ages</h2>
+        <Ages />
         <h2>languages, video del arbol</h2>
         <h2>map</h2>
       </div>

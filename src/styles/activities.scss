@@ -1,0 +1,28 @@
+.activities-wrapper {
+  display: flex;
+  text-align: center;
+
+  .images-activities-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .row-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .activity-img {
+        margin: 5px;
+      }
+
+      img {
+        width: 25%;
+        height: 25%;
+        border-radius: 10px 10px;
+        box-shadow: black rgba(0, 0, 0, 1.3);
+      }
+    }
+  }
+}

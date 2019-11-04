@@ -27,7 +27,7 @@ export default class Registration extends Component {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfPnKQnzaFTQPhQHoYfPfh8qEAJu7CUWQYryvUl23r2Ncczaw/viewform"
                 target="blank"
               >
-                Application
+                . Application
               </a>
             </li>
           </ol>

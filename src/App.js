@@ -4,7 +4,7 @@ import axios from "axios";
 
 import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
-import MethodInfo from "./pages/info-page";
+import MethodInfo from "./pages/general";
 import Activities from "./pages/curriculum";
 import About from "./pages/about";
 import TuitionAndFees from "./pages/tuition-n-fee-info";
