@@ -17,37 +17,11 @@ export default class ActivitiesIndex extends React.Component {
             <div className="row-wrapper">
               <div
                 className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity1 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
-              <div
-                className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity2 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
-              <div
-                className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity3 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
-            </div>
-
-            <div className="row-wrapper">
-              <div
-                className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity4 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
-              <div
-                className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity5 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
-              <div
-                className="activity-img"
-                style={{ backgroundImage: "url(" + imageActivity6 + ")" }}
-              ></div>
-              <div className="subtitle">Description</div>
+                style={{ backgroundImage: `url${imageActivity1}` }}
+              >
+                description
+              </div>
+              <div className="subtitle"></div>
             </div>
           </div>
         </div>

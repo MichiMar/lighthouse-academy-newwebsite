@@ -1,15 +1,25 @@
 import React from "react";
-import Curriculum from "../cursos/education";
-import seasonCourses from "../cursos/cursos-de-temporada";
+import { Link } from "react-router-dom";
 
-const Activities = () => {
-  return (
-    <div className="">
-      <h1>curriculum list</h1>
-      <Curriculum />
-      <seasonCourses />
-    </div>
-  );
-};
+// import TopicsAndEducation from "../cursos/api-education";
+import Topics from "../cursos/topics-curriculum";
 
-export default Activities;
+export default class Activities extends React.Component {
+  render() {
+    return (
+      <div className="Topics-wrapperx">
+        {/* <TopicsAndEducation /> */}
+
+        <form>
+          <Link to="/ages" className="btn">
+            Ages Information
+          </Link>
+          <Link to="/summer-course" className="btn">
+            Summer Courses
+          </Link>
+        </form>
+        <Topics />
+      </div>
+    );
+  }
+}

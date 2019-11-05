@@ -38,12 +38,7 @@
     background-color: $principal;
 
     .btn {
-      text-decoration: none;
-      color: $yellow;
-      padding: 15px;
-      margin: 0px;
-      background-color: transparent;
-      border: none;
+      @include base-btn();
 
       &:hover {
         background-color: $principal-dark;

@@ -56,7 +56,7 @@ const NavigationContainer = props => {
         </div>
 
         <div className="nav-link-wrapper">
-          <NavLink to="/tuition-n-fees" activeClassName="nav-link-active">
+          <NavLink to="/tuitions-and-fees" activeClassName="nav-link-active">
             <button className="btn">Tuition and Fees</button>
           </NavLink>
         </div>

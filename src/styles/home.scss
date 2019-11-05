@@ -1,12 +1,13 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0px;
 
   h2 {
     font-size: 2.5em;
+    @include base-title();
   }
 
   .home-image {
@@ -16,9 +17,5 @@
       height: 50%;
       width: 50%;
     }
-  }
-
-  h2 {
-    color: $principal;
   }
 }

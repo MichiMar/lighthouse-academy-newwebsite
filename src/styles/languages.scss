@@ -1,0 +1,13 @@
+.languages-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .subtitle {
+    @include base-title();
+  }
+
+  .introduction {
+    @include base-paragraph();
+  }
+}

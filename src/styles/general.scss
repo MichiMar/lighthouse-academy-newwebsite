@@ -6,8 +6,7 @@
   margin: 100px;
 
   .title {
-    color: $principal;
-    text-align: center;
+    @include base-title();
   }
 
   .text-content {
