@@ -1,2 +1,14 @@
 .App {
+  font-family: "Quicksand", sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-justify: auto;
+  background-color: #1d65a8;
+  color: #fcfef4;
+  margin-top: 80px;
+  padding: 30px;
 }

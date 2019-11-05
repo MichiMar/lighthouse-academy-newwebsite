@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin: 30px;
 
   h2 {
     font-size: 2.5em;
@@ -17,5 +17,30 @@
       height: 50%;
       width: 50%;
     }
+  }
+}
+
+.ages-home-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .link-to-age-page {
+    .ages-links {
+      a {
+        text-decoration: none;
+        padding: 80px;
+      }
+    }
+  }
+}
+
+.languages-wrapper {
+  .subtitle {
+    @include base-title();
+    font-size: 2em;
+  }
+
+  .introduction {
+    @include base-paragraph();
   }
 }

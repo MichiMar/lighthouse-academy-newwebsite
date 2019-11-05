@@ -5,14 +5,18 @@
 
   .title-wrapper {
     display: flex;
-    align-content: center;
+    align-content: space-between;
     padding: 30px;
     margin: 0;
 
     .logo {
       img {
-        height: 100px;
+        height: 150px;
       }
+    }
+
+    a {
+      cursor: pointer;
     }
 
     .academy-name {
@@ -20,13 +24,9 @@
       flex-direction: column;
       justify-content: flex-end;
       margin: 0px;
-      font-size: 0.65em;
+      font-size: 1.5em;
       text-decoration: none;
-
-      a {
-        color: $principal;
-        text-decoration: none;
-      }
+      color: $principal;
     }
   }
 
@@ -39,12 +39,6 @@
 
     .btn {
       @include base-btn();
-
-      &:hover {
-        background-color: $principal-dark;
-        transition: 0.5s;
-        cursor: pointer;
-      }
     }
   }
 }

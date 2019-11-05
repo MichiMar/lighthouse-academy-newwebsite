@@ -9,26 +9,29 @@ const historyImage =
 const societyImage =
   "https://images.unsplash.com/photo-1568568756062-7ba6d2d4ac57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80";
 const numbersImage =
-  "https://images.unsplash.com/photo-1568568756062-7ba6d2d4ac57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80";
+  "https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80";
 
 const Topics = () => {
   return (
     <div className="curriculum-wrapper">
       <div className="topic-content">
         <div className="heading-introduction">
-          <h3>Dr. Montessori’s Great Lessons</h3>
-          <h6>
+          <h1 className="headding">Dr. Montessori’s Great Lessons</h1>
+
+          <h3>
             Dr. Montessori uses the Five Great Lessons at the elementary levels
             as an introduction to all topics, providing a “big picture” to
             demonstrate how the sciences, art, history, language, and geography
             are interrelated. Students are then introduced to increasing levels
             of detail and complexity within these broad areas.
-          </h6>
+          </h3>
         </div>
 
-        <div className="topics-wrapper">
+        <div className="topics-information">
+          <h4 className="topic-subheading">
+            1 .“The Story of the Creation of the Universe.” Science
+          </h4>
           <div className="topic-information">
-            <h4>1 .“The Story of the Creation of the Universe.” Science</h4>
             <p className="info">
               This science tour describes how chemical elements such as Hidrogen
               exploded to form Helium and all other elements and minerals; how
@@ -42,31 +45,38 @@ const Topics = () => {
               gravity, galaxies, planetary systems, Earth’s crust, volcanoes,
               erosion, climate, and physical geography. Then we relate that
               knowledge to the child through a study of the body's systems and
-              our need for plants and animals.{" "}
+              our need for plants and animals.
             </p>
 
-            <p>Astronomy (space)</p>
-            <p>Chemistry (elements)</p>
-            <p>Physics (properties)</p>
-            <p>Geology (rocks)</p>
-            <p>Meteorology (weather)</p>
-            <p>Botany (plants)</p>
-            <p>Zoology (animals)</p>
-            <p>Anatomy (human body)</p>
+            <div className="list">
+              <ul>
+                <li>Astronomy (space)</li>
+                <li>Chemistry (elements)</li>
+                <li>Physics (properties)</li>
+                <li>Geology (rocks)</li>
+                <li>Meteorology (weather)</li>
+                <li>Botany (plants)</li>
+                <li>Zoology (animals)</li>
+                <li>Anatomy (human body)</li>
+              </ul>
+            </div>
           </div>
 
-          <img src={universeImage} />
+          <div className="img-topic">
+            <img src={universeImage} />
+          </div>
         </div>
 
+        <h4 className="topic-subheading">
+          2. Life Science is presented through “The Story of the Coming of
+          Life".
+        </h4>
         <div className="topic-information">
-          <img src={lifeScience} />
+          <div className="img-topic">
+            <img src={lifeScience} />
+          </div>
 
-          <h4>
-            2. Life Science is presented through “The Story of the Coming of
-            Life".
-          </h4>
           <p className="info">
-            {" "}
             Children imagine how single-cell and multicell forms of life became
             embedded in the bottom of the sea and formed fossils. The Paleozoic,
             Mesozoic, and Cenozoic periods are traced beginning with the kingdom
@@ -80,18 +90,22 @@ const Topics = () => {
             maps, rugs, and cultural cards appropriate to the month of study.
           </p>
 
-          <p>Plants and Agriculture, Europe</p>
-          <p>Microorganisms and Tundra, Antarctica</p>
-          <p>Fish and Oceans, Australia</p>
-          <p>Reptiles and Desserts, Asia</p>
-          <p>Dinosaurs and Anthropology</p>
-          <p>Amphibians and Rainforests, South America</p>
-          <p>Birds and Flight, North America</p>
-          <p>Mammals and grasslands Africa</p>
+          <div className="list">
+            <ul>
+              <li>Plants and Agriculture, Europe</li>
+              <li>Microorganisms and Tundra, Antarctica</li>
+              <li>Fish and Oceans, Australia</li>
+              <li>Reptiles and Desserts, Asia</li>
+              <li>Dinosaurs and Anthropology</li>
+              <li>Amphibians and Rainforests, South America</li>
+              <li>Birds and Flight, North America</li>
+              <li>Mammals and grasslands Africa</li>
+            </ul>
+          </div>
         </div>
 
+        <h4 className="topic-subheading">3. "The Story of Humans"</h4>
         <div className="topic-information">
-          <h4>3. "The Story of Humans"</h4>
           <p className="info">
             Introduces human beings and their unique endowments of intellect and
             will. The aim is for the children to imagine what life was like for
@@ -105,23 +119,33 @@ const Topics = () => {
             Montessori materials. Students may check-out a book from the
             historical time period to study.
           </p>
-          <p>Africa and Ancient Egypt</p>
-          <p>Asia and Ancient Chinese Inventions and numbers</p>
-          <p>Middle East and the Ottoman Empire</p>
-          <p>Europe and the Renaissance</p>
-          <p>South America and Age of Exploration</p>
-          <p>North America and Early American History</p>
-          <p>Australia and the Pacific Islands</p>
-          <p>Antarctica and Modern Science</p>
+
+          <div className="list">
+            <ul>
+              <li>Africa and Ancient Egypt</li>
+              <li>Asia and Ancient Chinese Inventions and numbers</li>
+              <li>Middle East and the Ottoman Empire</li>
+              <li>Europe and the Renaissance</li>
+              <li>South America and Age of Exploration</li>
+              <li>North America and Early American History</li>
+              <li>Australia and the Pacific Islands</li>
+              <li>Antarctica and Modern Science</li>
+            </ul>
+          </div>
         </div>
 
-        <img src={historyImage} />
+        <div className="img-topic">
+          <img src={historyImage} />
+        </div>
       </div>
 
-      <div className="topic-information">
-        <img src={societyImage} />
+      <h4 className="topic-subheading">4. "The Story of Language" </h4>
 
-        <h4>4. "The Story of Language" </h4>
+      <div className="topic-information">
+        <div className="img-topic">
+          <img src={societyImage} />
+        </div>
+
         <p className="info">
           Transports children to a time when people had to figure out how to
           comunicate an idea to another. We discuss the development of writing
@@ -132,10 +156,12 @@ const Topics = () => {
         </p>
       </div>
 
+      <h4 className="topic-subheading">5. "The Story of Numbers"</h4>
       <div className="topic-information">
-        <img src={numbersImage} />
+        <div className="img-topic">
+          <img src={numbersImage} />
+        </div>
 
-        <h4>5. "The Story of Numbers"</h4>
         <p className="info">
           Is told to help children imagine what human needs led to the
           development of numbers. We will review early humans, sumatrans,
@@ -143,7 +169,7 @@ const Topics = () => {
           imagine why our system is based on number 10, explore other math
           systems based on number 7. We will talk about how numbers and math
           were created to help people understand their world, and communicate
-          better.{" "}
+          better.
         </p>
       </div>
     </div>

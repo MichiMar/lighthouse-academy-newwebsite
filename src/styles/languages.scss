@@ -7,6 +7,12 @@
     @include base-title();
   }
 
+  iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .introduction {
     @include base-paragraph();
   }

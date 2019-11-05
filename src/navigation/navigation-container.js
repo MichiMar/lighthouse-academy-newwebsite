@@ -17,18 +17,18 @@ const NavigationContainer = props => {
 
   return (
     <div className="nav-wrapper">
-      <Link to="/">
-        <div className="title-wrapper">
+      <div className="title-wrapper">
+        <Link to="/">
           <div className="logo">
             <img src={Logo} />
           </div>
+        </Link>
 
-          <div className="academy-name">
-            <h1>Lighthouse Montessori Academy</h1>
-            <h5>Inspiring. Individualized. Hands-on.</h5>
-          </div>
+        <div className="academy-name">
+          <h1>Lighthouse Montessori Academy</h1>
+          <h5>Inspiring. Individualized. Hands-on.</h5>
         </div>
-      </Link>
+      </div>
 
       <div className="menu-burger-bars">
         <div className="nav-link-wrapper">

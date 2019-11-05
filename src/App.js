@@ -41,7 +41,10 @@ function App() {
         </div>
       </Router>
       <div className="footer">
-        <h2>footer</h2>
+        <footer className="footer-wrapper">
+          <div className="name">LightHouse Montessori Academy</div>
+          <div className="footer-copyright">&copy;Maraly Frandsen</div>
+        </footer>
       </div>
     </div>
   );

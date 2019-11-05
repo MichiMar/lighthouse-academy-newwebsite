@@ -1,9 +1,11 @@
 @mixin base-paragraph {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  text-justify: center;
   color: $black;
   padding: 25px;
-  margin: 5px;
+  margin: 30px;
+  color: $black;
 }
 
 @mixin base-btn {
@@ -29,6 +31,7 @@
 @mixin base-title {
   color: $principal;
   text-align: center;
+  font-size: 1.25em;
 }
 
 @mixin base-link {

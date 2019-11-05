@@ -1,0 +1,33 @@
+.galery-container {
+  display: flex;
+  flex-direction: column;
+
+  .text-wrapper {
+    @include base-title();
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+
+  .video-YT {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-wrapper {
+    margin-top: 50px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+
+    .class-img {
+      box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+    }
+  }
+}

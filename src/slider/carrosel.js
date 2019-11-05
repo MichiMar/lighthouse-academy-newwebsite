@@ -21,7 +21,7 @@ export const Slide = () => {
       } else {
         setIndex(index + 1);
       }
-    }, 2500);
+    }, 3500);
     return () => clearInterval(interval);
   }, [index]);
 

@@ -7,10 +7,10 @@ import Topics from "../cursos/topics-curriculum";
 export default class Activities extends React.Component {
   render() {
     return (
-      <div className="Topics-wrapperx">
+      <div className="Topics-wrapper">
         {/* <TopicsAndEducation /> */}
 
-        <form>
+        <form className="ages-n-summer">
           <Link to="/ages" className="btn">
             Ages Information
           </Link>
