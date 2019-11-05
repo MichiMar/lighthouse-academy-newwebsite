@@ -29,26 +29,30 @@
       }
     }
 
-    .topics-information-wrapper {
-      .topic-subheading {
-        @include base-title();
+    .topic-subheading {
+      @include base-title();
+    }
+
+    .topic-information {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 25px;
+
+      .info {
+        @include base-paragraph();
+        padding: 50px;
+        margin: 25px;
       }
 
-      .topic-information {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 25px;
+      .img-topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-        .info {
-          @include base-paragraph();
-          padding: 50px;
-          margin: 25px;
-        }
-
-        img {
-          width: 150px;
-          height: 200px;
-        }
+      img {
+        width: 100%;
+        height: 50%;
       }
     }
   }

@@ -28,9 +28,10 @@ const Topics = () => {
         </div>
 
         <div className="topics-information">
-          <h4 className="topic-subheading">
-            1 .“The Story of the Creation of the Universe.” Science
-          </h4>
+          <div className="topic-subheading">
+            <h4>1 .“The Story of the Creation of the Universe.” Science</h4>
+          </div>
+
           <div className="topic-information">
             <p className="info">
               This science tour describes how chemical elements such as Hidrogen
@@ -67,15 +68,14 @@ const Topics = () => {
           </div>
         </div>
 
-        <h4 className="topic-subheading">
-          2. Life Science is presented through “The Story of the Coming of
-          Life".
-        </h4>
-        <div className="topic-information">
-          <div className="img-topic">
-            <img src={lifeScience} />
-          </div>
+        <div className="topic-subheading">
+          <h4>
+            2. Life Science is presented through “The Story of the Coming of
+            Life".
+          </h4>
+        </div>
 
+        <div className="topic-information">
           <p className="info">
             Children imagine how single-cell and multicell forms of life became
             embedded in the bottom of the sea and formed fossils. The Paleozoic,
@@ -102,9 +102,15 @@ const Topics = () => {
               <li>Mammals and grasslands Africa</li>
             </ul>
           </div>
+          <div className="img-topic">
+            <img src={lifeScience} />
+          </div>
         </div>
 
-        <h4 className="topic-subheading">3. "The Story of Humans"</h4>
+        <div className="topic-subheading">
+          <h4>3. "The Story of Humans"</h4>
+        </div>
+
         <div className="topic-information">
           <p className="info">
             Introduces human beings and their unique endowments of intellect and
@@ -139,13 +145,11 @@ const Topics = () => {
         </div>
       </div>
 
-      <h4 className="topic-subheading">4. "The Story of Language" </h4>
+      <div className="topic-subheading">
+        <h4>4. "The Story of Language" </h4>
+      </div>
 
       <div className="topic-information">
-        <div className="img-topic">
-          <img src={societyImage} />
-        </div>
-
         <p className="info">
           Transports children to a time when people had to figure out how to
           comunicate an idea to another. We discuss the development of writing
@@ -154,14 +158,17 @@ const Topics = () => {
           ancient Egypt, cuneic form, to the rennaisance, the printing press and
           to our modern digital era
         </p>
+
+        <div className="img-topic">
+          <img src={societyImage} />
+        </div>
       </div>
 
-      <h4 className="topic-subheading">5. "The Story of Numbers"</h4>
-      <div className="topic-information">
-        <div className="img-topic">
-          <img src={numbersImage} />
-        </div>
+      <div className="topic-subheading">
+        <h4>5. "The Story of Numbers"</h4>
+      </div>
 
+      <div className="topic-information">
         <p className="info">
           Is told to help children imagine what human needs led to the
           development of numbers. We will review early humans, sumatrans,
@@ -171,6 +178,9 @@ const Topics = () => {
           were created to help people understand their world, and communicate
           better.
         </p>
+      </div>
+      <div className="img-topic">
+        <img src={numbersImage} />
       </div>
     </div>
   );

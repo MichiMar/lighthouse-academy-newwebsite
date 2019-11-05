@@ -4,9 +4,6 @@ const About = () => {
   return (
     <div className="about-container">
       <h1>Good to meet you!</h1>
-      <div className="teachers">
-        <img src="#" />
-      </div>
 
       <div className="about-text">
         <p>

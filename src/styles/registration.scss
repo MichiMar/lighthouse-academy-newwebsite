@@ -1,0 +1,18 @@
+.content-wrapper {
+  font-size: 1.2em;
+  margin: 20px;
+
+  h1 {
+    @include base-title();
+  }
+
+  .instructions {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $principal-link;
+      text-decoration: none;
+    }
+  }
+}

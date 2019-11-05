@@ -1,0 +1,13 @@
+.about-container {
+  padding: 30px;
+  margin: 15px;
+  font-size: 1.25em;
+
+  h1 {
+    @include base-title();
+  }
+
+  .about-text {
+    @include base-paragraph();
+  }
+}
