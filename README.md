@@ -4,5 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Welcome 
 
-https://lighthouse-montessori-academy.herokuapp.com/
 
+[lighthouse.com](https://lighthouse-montessori-academy.herokuapp.com/
+
+![Logo](Light-house-withe_clipped_rev_3.png)
