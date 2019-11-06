@@ -5,15 +5,15 @@ import { NavLink, Link } from "react-router-dom";
 import Logo from "../img/Light-House-white_clipped_rev_3.png";
 
 const NavigationContainer = props => {
-  const dynamicLink = (route, linkText) => {
-    return (
-      <div className="nav-link-wrapper">
-        <NavLink to={route} activeClassName="nav-link-active">
-          {linkText}
-        </NavLink>
-      </div>
-    );
-  };
+  // const dynamicLink = (route, linkText) => {
+  //   return (
+  //     <div className="nav-link-wrapper">
+  //       <NavLink to={route} activeClassName="nav-link-active">
+  //         {linkText}
+  //       </NavLink>
+  //     </div>
+  //   );
+  // };
 
   return (
     <div className="nav-wrapper">

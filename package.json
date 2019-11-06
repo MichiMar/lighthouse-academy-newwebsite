@@ -10,6 +10,7 @@
     "react-dom": "^16.11.0",
     "react-gesture-gallery": "^1.1.0",
     "react-gesture-responder": "^2.1.0",
+    "react-icons": "^3.8.0",
     "react-materialize": "^3.4.1",
     "react-native": "^0.61.3",
     "react-router-dom": "^5.1.2",
