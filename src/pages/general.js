@@ -23,11 +23,13 @@ export default class MethodInfo extends React.Component {
 
         <div className="text-content">
           <div className="video-YT">
-            <Youtube
-              videoId="GcgN0lEh5IA"
-              opts={opts}
-              onReady={this._onReady}
-            />
+            <div>
+              <Youtube
+                videoId="GcgN0lEh5IA"
+                opts={opts}
+                onReady={this._onReady}
+              />
+            </div>
           </div>
 
           <div>
