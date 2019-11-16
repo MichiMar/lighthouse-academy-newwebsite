@@ -20,30 +20,31 @@ import "./styles/main.scss";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <div>
-          <NavigationContainer />
+      <div className="App-container">
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path="/" component={Home} />
 
-          <Switch>
-            <Route exact path="/" component={Home} />
-
-            <Route path="/general" component={MethodInfo} />
-            <Route path="/curriculum" component={Activities} />
-            <Route path="/about" component={About} />
-            <Route path="/tuitions-and-fees" component={TuitionAndFees} />
-            {/* <Route path="/blog" component={Blog} /> */}
-            <Route path="/contact" component={Contact} />
-            <Route path="/galery" component={Galery} />
-            <Route path="/registration" component={Registration} />
-            <Route path="/ages" component={AgesPage} />
-            <Route path="/summer-course" component={SeasonCourses} />
-          </Switch>
-        </div>
-      </Router>
+              <Route path="/general" component={MethodInfo} />
+              <Route path="/curriculum" component={Activities} />
+              <Route path="/about" component={About} />
+              <Route path="/tuitions-and-fees" component={TuitionAndFees} />
+              {/* <Route path="/blog" component={Blog} /> */}
+              <Route path="/contact" component={Contact} />
+              <Route path="/galery" component={Galery} />
+              <Route path="/registration" component={Registration} />
+              <Route path="/ages" component={AgesPage} />
+              <Route path="/summer-course" component={SeasonCourses} />
+            </Switch>
+          </div>
+        </Router>
+      </div>
       <div className="footer">
         <footer className="footer-wrapper">
-          <div className="name">LightHouse Montessori Academy</div>
-          <div className="footer-copyright">&copy;Maraly Frandsen</div>
+          <div className="footer-copyright">
+            &copy;LightHouse Montessori Academy
+          </div>
         </footer>
       </div>
     </div>
