@@ -5,13 +5,13 @@
 
   .title-wrapper {
     display: flex;
-    align-content: space-between;
-    padding: 30px;
+    flex-direction: column;
+
     margin: 0;
 
     .logo {
       img {
-        height: 150px;
+        width: 85px;
       }
     }
 
@@ -22,9 +22,8 @@
     .academy-name {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
       margin: 0px;
-      font-size: 1.5em;
+      font-size: 0.5em;
       text-decoration: none;
       color: $principal;
     }
@@ -32,10 +31,9 @@
 
   .menu-burger-bars {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 5px;
-    background-color: $principal;
 
     .btn {
       @include base-btn();

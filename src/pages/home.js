@@ -1,19 +1,20 @@
-import React from "react";
-
-import ActivitiesIndex from "./home-sections/activities";
-import Ages from "./home-sections/ages";
-import LanguagesSection from "./home-sections/languages";
-import SimpleMap from "./home-sections/map";
+import React, { Component } from "react";
 import NavigationContainer from "../navigation/navigation-container";
-// import { Slide } from "../slider/carrosel";
 
-export default class Home extends React.Component {
+export default class Home extends Component {
   render() {
     return (
-      <div className="home-container">
-        <NavigationContainer />
-
-        <h1>Home</h1>
+      <div className="page-container">
+        <div className="navbar">
+          <div className="b">
+            <NavigationContainer />
+          </div>
+        </div>
+        <div className="container">
+          <div className="home-container">
+            <h1>Home</h1>
+          </div>
+        </div>
       </div>
     );
   }

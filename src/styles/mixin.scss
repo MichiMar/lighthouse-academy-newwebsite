@@ -11,12 +11,13 @@
 @mixin base-btn {
   cursor: pointer;
   height: 42px;
+  width: 100%;
   font-size: 1em;
   font-weight: 500;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
-  background-color: $principal;
-  color: $yellow;
+  background-color: transparent;
+  color: $black;
 
   &:active,
   &:focus {

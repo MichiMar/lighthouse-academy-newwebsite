@@ -1,8 +1,8 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 import { withRouter } from "react-router";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "../img/Light-House-white_clipped_rev_3.png";
+// import Logo from "../img/Light-House-white_clipped_rev_3.png";
 
 const NavigationContainer = props => {
   return (
@@ -10,7 +10,7 @@ const NavigationContainer = props => {
       <div className="title-wrapper">
         <Link to="/">
           <div className="logo">
-            <img src={Logo} />
+            <img src="#" />
           </div>
         </Link>
 
@@ -48,12 +48,6 @@ const NavigationContainer = props => {
         <div className="nav-link-wrapper">
           <NavLink to="/tuitions-and-fees" activeClassName="nav-link-active">
             <button className="btn">Tuition and Fees</button>
-          </NavLink>
-        </div>
-
-        <div className="nav-link-wrapper">
-          <NavLink to="/galery" activeClassName="nav-link-active">
-            <button className="btn">Galery</button>
           </NavLink>
         </div>
 
