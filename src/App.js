@@ -42,7 +42,9 @@ function App() {
           <div className="footer">
             <footer className="footer-wrapper">
               <div className="footer-copyright">
-                &copy;LightHouse Montessori Academy
+                <p>&copy;LightHouse Montessori Academy</p>
+                <p>Phone: (385) 237-5437</p>
+                <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
               </div>
             </footer>
           </div>

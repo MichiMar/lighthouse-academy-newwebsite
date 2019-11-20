@@ -6,6 +6,7 @@
 
   .navbar {
     width: 175px;
+    height: 100vh;
     padding: 5px;
     margin: 0 15px 0 0;
     border: 3px solid red;
@@ -17,5 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    .home-container {
+      display: flex;
+      flex-direction: column;
+
+      .summary-images
+    }
   }
 }
