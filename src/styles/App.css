@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* height: 100vh; */
   /* width: 100vw; */
 }
 
@@ -24,9 +23,9 @@
   flex-direction: column;
   justify-content: center;
   text-justify: auto;
-  font-size: 0.5em;
+  font-size: 0.9em;
   background-color: #1d65a8;
   color: #fcfef4;
-  margin-top: 0px;
+  margin-top: 10px;
   padding: 30px;
 }

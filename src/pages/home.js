@@ -41,6 +41,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${confidentImg})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={confidentImg} />
                     <p>
                       Practical life activities develop organization and focus
                       skills. When the child is able to take care of himself and
@@ -62,6 +63,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${world})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={world} />
                     <p>
                       Cultural experiences in geography, history, zoology,
                       botany, dance, music and art. We put the world at the
@@ -88,6 +90,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${emotionalInteligent})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={emotionalInteligent} />
                     <p>
                       Peace education helps children learn to contribute, set
                       boundaries or respect, handle conflict wisely, understand
@@ -111,6 +114,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${comunication})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={comunication} />
                     <p>
                       Language used to connect and belong through listening,
                       speaking, reading and writing in Spanish and English. We
@@ -133,6 +137,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${solverProblem})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={solverProblem} />
                     <p>
                       Math exercises that are challenging, understandable and
                       enjoyable.
@@ -152,6 +157,7 @@ export default class Home extends Component {
                     // style={{ backgroundImage: `url(${creative})` }}
                     onClick={this.handleLinkClick}
                   >
+                    <img src={creative} />
                     <p>
                       Cultural experiences in geography, history, zoology,
                       botany, dance, music and art. We put the world at the
