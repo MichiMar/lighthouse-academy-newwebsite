@@ -2,4 +2,5 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
   font-size: 1em;
+  background-image: url("../img/background.jpg");
 }

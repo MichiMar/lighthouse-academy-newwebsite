@@ -12,12 +12,18 @@ import AgesPage from "./pages/ages-page";
 import SeasonCourses from "./cursos/cursos-de-temporada";
 
 import "./styles/main.scss";
+import NavigationContainer from "./navigation/navigation-container";
 
 function App() {
   return (
     <div className="App">
       <div className="App-container">
         <Router>
+          <div className="navbar">
+            <div className="b">
+              <NavigationContainer />
+            </div>
+          </div>
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
@@ -32,16 +38,6 @@ function App() {
               <Route path="/summer-course" component={SeasonCourses} />
             </Switch>
           </div>
-
-          {/* <div className="footer">
-            <footer className="footer-wrapper">
-              <div className="footer-copyright">
-                <p>&copy;LightHouse Montessori Academy</p>
-                <p>Phone: (385) 237-5437</p>
-                <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
-              </div>
-            </footer>
-          </div> */}
         </Router>
       </div>
     </div>

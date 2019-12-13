@@ -4,16 +4,6 @@
   // align-items: center;
   // height: 200vh;
 
-  .navbar {
-    width: 300px;
-    height: 150vh;
-    padding: 5px;
-    // border: 3px solid red;
-    display: flex;
-    flex-direction: column;
-    object-fit: cover;
-  }
-
   .container {
     display: flex;
     // justify-content: flex-end;
@@ -40,12 +30,30 @@
             border-radius: 8px;
             height: 45vh;
             width: 25vw;
+            overflow: hidden;
+            position: relative;
 
             .image {
               img {
                 height: 45vh;
                 width: 25vw;
+                object-fit: fill;
               }
+            }
+          }
+
+          .topic-big-block {
+            background-color: rgba(163, 163, 163, 0.36);
+            border-radius: 8px;
+            height: 45vh;
+            width: 75vw;
+            overflow: hidden;
+            position: relative;
+
+            .topic-introduction {
+              position: absolute;
+              height: 45vh;
+              width: 75vw;
             }
 
             .big-image {

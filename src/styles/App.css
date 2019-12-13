@@ -3,19 +3,22 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .App > .App-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* width: 100vw; */
+  flex-direction: row;
 }
 
-.App > .App-container > .container {
+.navbar {
+  width: 200px;
+  height: 150vh;
+  padding: 5px;
+  /* border: 3px solid red; */
   display: flex;
-  fill: cover;
+  flex-direction: column;
+  object-fit: cover;
 }
 
 .footer {
@@ -24,8 +27,8 @@
   justify-content: center;
   text-justify: auto;
   font-size: 0.9em;
-  background-color: #1d65a8;
-  color: #fcfef4;
+  color: #1d65a8;
   margin-top: 10px;
   padding: 30px;
+  position: relative;
 }

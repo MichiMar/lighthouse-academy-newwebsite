@@ -21,12 +21,6 @@ export default class Home extends Component {
   render() {
     return (
       <div className="page-container">
-        <div className="navbar">
-          <div className="b">
-            <NavigationContainer />
-          </div>
-        </div>
-
         <div className="container">
           <div className="home-container">
             <div className="heading">
@@ -61,7 +55,7 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div className="topic-block">
+                <div className="topic-big-block">
                   <h3>Enthusiastic life-long learner</h3>
                   <div
                     // style={{ backgroundImage: `url(${world})` }}
@@ -204,6 +198,15 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="footer">
+          <footer className="footer-wrapper">
+            <div className="footer-copyright">
+              <p>&copy;LightHouse Montessori Academy</p>
+              <p>Phone: (385) 237-5437</p>
+              <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
+            </div>
+          </footer>
         </div>
       </div>
     );
