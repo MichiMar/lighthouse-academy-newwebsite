@@ -33,7 +33,7 @@ function App() {
             </Switch>
           </div>
 
-          <div className="footer">
+          {/* <div className="footer">
             <footer className="footer-wrapper">
               <div className="footer-copyright">
                 <p>&copy;LightHouse Montessori Academy</p>
@@ -41,7 +41,7 @@ function App() {
                 <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
               </div>
             </footer>
-          </div>
+          </div> */}
         </Router>
       </div>
     </div>
