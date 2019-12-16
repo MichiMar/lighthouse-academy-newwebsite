@@ -16,7 +16,7 @@
   font-weight: 500;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
-  background-color: transparent;
+  background-color: $marfil;
   color: $black;
 
   &:active,
@@ -25,7 +25,8 @@
   }
 
   &:hover {
-    background-color: $principal-dark;
+    background-color: $yellow;
+    color: $black;
   }
 }
 
