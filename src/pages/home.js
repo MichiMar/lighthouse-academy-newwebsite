@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import NavigationContainer from "../navigation/navigation-container";
-import Styled from "styled-components";
 
 import confidentImg from "../img/Confident.jpg";
 import creative from "../img/Creative.jpg";
