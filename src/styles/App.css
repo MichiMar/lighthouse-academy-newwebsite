@@ -12,13 +12,11 @@
 }
 
 .App > .App-container > .bars-menu {
-  display: flex;
   margin: 0px 20px;
 }
 
 .navbar {
   width: 200px;
-  height: 150vh;
   padding: 5px;
   display: flex;
   flex-direction: column;

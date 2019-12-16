@@ -5,6 +5,7 @@
   .title-wrapper {
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
 
     .logo {
@@ -37,6 +38,7 @@
 
     .btn {
       @include base-btn();
+      background-color: transparent;
     }
   }
 }
