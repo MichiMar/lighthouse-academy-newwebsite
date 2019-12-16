@@ -27,12 +27,9 @@ export default class Home extends Component {
 
             <div className="summary-images">
               <div className="images-wrapper-upper-block">
-                <div className="topic-block">
+                <div onClick={this.handleLinkClick} className="topic-block">
                   <h3>Confident</h3>
-                  <div onClick={this.handleLinkClick}>
-                    <div className="image">
-                      <img src={confidentImg} />
-                    </div>
+                  <div>
                     <div className="topic-introduction">
                       <p>
                         Practical life activities develop organization and focus
@@ -47,12 +44,15 @@ export default class Home extends Component {
                         as the greatest marvel of nature.” – Maria Montessori
                       </p>
                     </div>
+                    <div className="image">
+                      <img src={confidentImg} />
+                    </div>
                   </div>
                 </div>
 
-                <div className="topic-big-block">
+                <div onClick={this.handleLinkClick} className="topic-big-block">
                   <h3>Enthusiastic life-long learner</h3>
-                  <div onClick={this.handleLinkClick}>
+                  <div>
                     <div className="big-image">
                       <img src={world} />
                     </div>
@@ -79,9 +79,9 @@ export default class Home extends Component {
               </div>
 
               <div className="images-wrapper-lower-block">
-                <div className="topic-block">
+                <div onClick={this.handleLinkClick} className="topic-block">
                   <h3>Emotionally Intelligent</h3>
-                  <div onClick={this.handleLinkClick}>
+                  <div>
                     <div className="image">
                       <img src={emotionalInteligent} />
                     </div>
@@ -104,9 +104,9 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div className="topic-block">
+                <div onClick={this.handleLinkClick} className="topic-block">
                   <h3>A Good Comunicator</h3>
-                  <div onClick={this.handleLinkClick}>
+                  <div>
                     <div className="image">
                       <img src={comunication} />
                     </div>
@@ -128,9 +128,9 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div className="topic-block">
+                <div onClick={this.handleLinkClick} className="topic-block">
                   <h3>A Problem Solver</h3>
-                  <div onClick={this.handleLinkClick}>
+                  <div>
                     <div className="image">
                       <img src={solverProblem} />
                     </div>
@@ -149,9 +149,9 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div className="topic-block">
+                <div onClick={this.handleLinkClick} className="topic-block">
                   <h3>Creative</h3>
-                  <div onClick={this.handleLinkClick}>
+                  <div>
                     <div className="image">
                       <img src={creative} />
                     </div>

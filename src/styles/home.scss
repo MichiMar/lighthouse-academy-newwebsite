@@ -36,6 +36,13 @@
                 object-fit: fill;
               }
             }
+
+            .topic-introduction {
+              height: 45vh;
+              width: 25vw;
+              font-size: auto;
+              position: absolute;
+            }
           }
 
           .topic-big-block {
@@ -70,10 +77,18 @@
             border-radius: 8px;
             height: 45vh;
             width: 25vw;
+            overflow: hidden;
+            position: relative;
 
             img {
               height: 45vh;
               width: 25vw;
+            }
+
+            .topic-introduction {
+              height: 45vh;
+              width: 25vw;
+              position: absolute;
             }
           }
         }
