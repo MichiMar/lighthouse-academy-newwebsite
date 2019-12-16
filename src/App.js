@@ -10,6 +10,7 @@ import Contact from "./pages/contact";
 import Registration from "./pages/registration";
 import AgesPage from "./pages/ages-page";
 import SeasonCourses from "./cursos/cursos-de-temporada";
+import { FaBars } from "react-icons/fa";
 
 import "./styles/main.scss";
 import NavigationContainer from "./navigation/navigation-container";
@@ -23,6 +24,9 @@ function App() {
             <div className="b">
               <NavigationContainer />
             </div>
+          </div>
+          <div className="bars-menu">
+            <FaBars />
           </div>
           <div className="container">
             <Switch>

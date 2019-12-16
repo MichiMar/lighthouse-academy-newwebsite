@@ -11,6 +11,11 @@
   flex-direction: row;
 }
 
+.App > .App-container > .bars-menu {
+  display: flex;
+  margin: 0px 20px;
+}
+
 .navbar {
   width: 200px;
   height: 150vh;
@@ -19,7 +24,7 @@
   flex-direction: column;
   /* justify-content: center; */
   align-content: center;
-  background-color: #fcfef4;
+  background-color: #fcfef45f;
   object-fit: cover;
 }
 
