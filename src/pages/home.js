@@ -29,10 +29,7 @@ export default class Home extends Component {
               <div className="images-wrapper-upper-block">
                 <div className="topic-block">
                   <h3>Confident</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${confidentImg})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="image">
                       <img src={confidentImg} />
                     </div>
@@ -55,10 +52,7 @@ export default class Home extends Component {
 
                 <div className="topic-big-block">
                   <h3>Enthusiastic life-long learner</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${world})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="big-image">
                       <img src={world} />
                     </div>
@@ -87,10 +81,7 @@ export default class Home extends Component {
               <div className="images-wrapper-lower-block">
                 <div className="topic-block">
                   <h3>Emotionally Intelligent</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${emotionalInteligent})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="image">
                       <img src={emotionalInteligent} />
                     </div>
@@ -115,10 +106,7 @@ export default class Home extends Component {
 
                 <div className="topic-block">
                   <h3>A Good Comunicator</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${comunication})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="image">
                       <img src={comunication} />
                     </div>
@@ -142,10 +130,7 @@ export default class Home extends Component {
 
                 <div className="topic-block">
                   <h3>A Problem Solver</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${solverProblem})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="image">
                       <img src={solverProblem} />
                     </div>
@@ -166,10 +151,7 @@ export default class Home extends Component {
 
                 <div className="topic-block">
                   <h3>Creative</h3>
-                  <div
-                    // style={{ backgroundImage: `url(${creative})` }}
-                    onClick={this.handleLinkClick}
-                  >
+                  <div onClick={this.handleLinkClick}>
                     <div className="image">
                       <img src={creative} />
                     </div>
@@ -197,6 +179,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
         <div className="footer">
           <footer className="footer-wrapper">
             <div className="footer-copyright">

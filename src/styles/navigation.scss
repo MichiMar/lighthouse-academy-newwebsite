@@ -4,9 +4,12 @@
 
   .title-wrapper {
     display: flex;
+    justify-content: center;
     flex-direction: column;
 
     .logo {
+      display: flex;
+      justify-content: center;
       img {
         width: 85px;
       }
