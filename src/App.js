@@ -14,6 +14,13 @@ import { FaBars } from "react-icons/fa";
 
 import "./styles/main.scss";
 import NavigationContainer from "./navigation/navigation-container";
+import SocialStudies from "./pages/homepage-links/social-studies";
+import Technology from "./pages/homepage-links/technologyAndSensoliar";
+import Math from "./pages/homepage-links/math";
+import Mathematics from "./pages/homepage-links/math";
+import Languages from "./pages/homepage-links/languages";
+import Geography from "./pages/homepage-links/geography";
+import PeaceEducation from "./pages/homepage-links/peaceEducation";
 
 class ToggleBar extends React.Component {
   constructor() {
@@ -78,12 +85,12 @@ function App() {
               <Route path="/ages" component={AgesPage} />
               <Route path="/summer-course" component={SeasonCourses} />
 
-              {/* <Route path="/" component={} />
-              <Route path="/" component={} />
-              <Route path="/" component={} />
-              <Route path="/" component={} />
-              <Route path="/" component={} />
-              <Route path="/" component={} /> */}
+              <Route path="/social-studies" component={SocialStudies} />
+              <Route path="/technology-and-sensorial" component={Technology} />
+              <Route path="/mathematics" component={Mathematics} />
+              <Route path="/languajes" component={Languages} />
+              <Route path="/geography" component={Geography} />
+              <Route path="/peace-education" component={PeaceEducation} />
             </Switch>
           </div>
         </Router>

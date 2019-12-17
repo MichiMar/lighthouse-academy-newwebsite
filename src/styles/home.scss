@@ -65,6 +65,7 @@
             }
 
             .topic-introduction {
+              display: none;
               height: 39vh;
               width: 22.5vw;
               font-size: auto;
@@ -79,6 +80,8 @@
             &:hover {
               box-shadow: 15px 15px 70px;
               .topic-introduction {
+                display: flex;
+                flex-direction: column;
                 color: $marfil;
                 background-color: #3d3d3de0;
               }
@@ -95,6 +98,7 @@
             cursor: pointer;
 
             .topic-introduction {
+              display: none;
               position: absolute;
               height: 39vh;
               width: 75vw;
@@ -112,6 +116,8 @@
             &:hover {
               box-shadow: 15px 15px 70px;
               .topic-introduction {
+                display: flex;
+                flex-direction: column;
                 color: $marfil;
                 background-color: #3d3d3de0;
               }
@@ -139,6 +145,7 @@
             }
 
             .topic-introduction {
+              display: none;
               height: 39vh;
               width: 22.5vw;
               background-color: #fcfef47e;
@@ -155,6 +162,8 @@
               box-shadow: 15px 15px 70px;
               .topic-introduction {
                 color: $marfil;
+                display: flex;
+                flex-direction: column;
                 background-color: #3d3d3de0;
               }
             }
