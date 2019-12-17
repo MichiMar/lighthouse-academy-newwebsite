@@ -3,5 +3,9 @@ body {
   margin: 0;
   font-size: 1em;
   background-image: url("../img/background.jpg");
-  background-size: contain;
+  background-repeat: auto;
+}
+
+body > img {
+  height: 50vh;
 }

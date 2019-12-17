@@ -1,7 +1,6 @@
 .page-container {
   display: flex;
   flex-direction: column;
-  height: 120vw;
 
   .container {
     display: flex;
@@ -10,6 +9,33 @@
     .home-container {
       display: flex;
       flex-direction: column;
+
+      .media-header {
+        background-color: $marfil;
+        box-shadow: 0 5px 3px;
+
+        .title-wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .logo {
+            img {
+              width: 25vh;
+            }
+          }
+
+          .academy-name {
+            margin: 5%;
+            text-align: center;
+            color: $principal-dark;
+          }
+        }
+
+        @media (min-width: 900px) {
+          display: none;
+        }
+      }
 
       .summary-images {
         display: grid;
@@ -21,11 +47,6 @@
           grid-template-columns: 1fr 3fr;
           grid-gap: 25px;
 
-          p {
-            font-weight: 500;
-            letter-spacing: 1px;
-          }
-
           .topic-block {
             background-color: rgba(163, 163, 163, 0.36);
             border-radius: 8px;
@@ -33,7 +54,6 @@
             width: 22.5vw;
             overflow: hidden;
             position: relative;
-            box-shadow: 5px 1px;
             cursor: pointer;
 
             .image {
@@ -50,6 +70,18 @@
               font-size: auto;
               background-color: #fcfef47e;
               position: absolute;
+
+              h5 {
+                margin: 5px;
+              }
+            }
+
+            &:hover {
+              box-shadow: 15px 15px 70px;
+              .topic-introduction {
+                color: $marfil;
+                background-color: #3d3d3de0;
+              }
             }
           }
 
@@ -70,9 +102,18 @@
             }
 
             .big-image {
+              padding: 3px;
               img {
                 height: 39vh;
                 width: 75vw;
+              }
+            }
+
+            &:hover {
+              box-shadow: 15px 15px 70px;
+              .topic-introduction {
+                color: $marfil;
+                background-color: #3d3d3de0;
               }
             }
           }
@@ -102,6 +143,84 @@
               width: 22.5vw;
               background-color: #fcfef47e;
               position: absolute;
+
+              h6,
+              h5,
+              h4 {
+                margin: 5px;
+              }
+            }
+
+            &:hover {
+              box-shadow: 15px 15px 70px;
+              .topic-introduction {
+                color: $marfil;
+                background-color: #3d3d3de0;
+              }
+            }
+          }
+        }
+
+        @media (max-width: 900px) {
+          .images-wrapper-upper-block {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+
+            .topic-block {
+              width: 100vw;
+              height: 70vh;
+              margin-bottom: 15px;
+
+              img {
+                width: 100vw;
+                height: 70vh;
+              }
+
+              .topic-introduction {
+                width: 100vw;
+                height: 70vh;
+                font-size: 1.6em;
+              }
+            }
+
+            .topic-big-block {
+              width: 100vw;
+              height: 70vh;
+
+              img {
+                width: 100vw;
+                height: 70vh;
+              }
+
+              .topic-introduction {
+                width: 100vw;
+                height: 70vh;
+                font-size: 1.6em;
+              }
+            }
+          }
+
+          .images-wrapper-lower-block {
+            display: flex;
+            flex-direction: column;
+
+            .topic-block {
+              width: 100vw;
+              height: 70vh;
+              margin-bottom: 15px;
+
+              img {
+                width: 100vw;
+                height: 70vh;
+              }
+
+              .topic-introduction {
+                width: 100vw;
+                height: 70vh;
+                font-size: 1.6em;
+              }
             }
           }
         }

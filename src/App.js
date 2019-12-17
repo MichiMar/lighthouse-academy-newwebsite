@@ -62,7 +62,9 @@ function App() {
     <div className="App">
       <div className="App-container">
         <Router>
-          <ToggleBar />
+          <div className="Navigation">
+            <ToggleBar />
+          </div>
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
@@ -75,6 +77,13 @@ function App() {
               <Route path="/registration" component={Registration} />
               <Route path="/ages" component={AgesPage} />
               <Route path="/summer-course" component={SeasonCourses} />
+
+              {/* <Route path="/" component={} />
+              <Route path="/" component={} />
+              <Route path="/" component={} />
+              <Route path="/" component={} />
+              <Route path="/" component={} />
+              <Route path="/" component={} /> */}
             </Switch>
           </div>
         </Router>

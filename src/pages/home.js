@@ -7,27 +7,33 @@ import comunication from "../img/good-comunicator.jpg";
 import world from "../img/Kid-World.jpg";
 import solverProblem from "../img/problem-solver.jpg";
 
+import Logo from "../img/Light-House-transpatern.png";
+
 export default class Home extends Component {
-  hoverImageChange(/**event for hover */) {
-    console.log("hover effect");
-  }
-
-  handleLinkClick() {
-    console.log("redirecting to information page");
-  }
-
   render() {
     return (
       <div className="page-container">
         <div className="container">
           <div className="home-container">
+            <div className="media-header">
+              <div className="title-wrapper">
+                <div className="logo">
+                  <img src={Logo} />
+                </div>
+
+                <div className="academy-name">
+                  <h1>Lighthouse Montessori Academy</h1>
+                  <h5>Inspiring. Individualized. Hands-on.</h5>
+                </div>
+              </div>
+            </div>
             <div className="heading">
               <h1>Nurturing each child to be:</h1>
             </div>
 
             <div className="summary-images">
               <div className="images-wrapper-upper-block">
-                <div onClick={this.handleLinkClick} className="topic-block">
+                <div className="topic-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>Confident</h3>
@@ -57,7 +63,7 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div onClick={this.handleLinkClick} className="topic-big-block">
+                <div className="topic-big-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>Enthusiastic life-long learner</h3>
@@ -90,7 +96,7 @@ export default class Home extends Component {
               </div>
 
               <div className="images-wrapper-lower-block">
-                <div onClick={this.handleLinkClick} className="topic-block">
+                <div className="topic-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>Emotionally Intelligent</h3>
@@ -119,7 +125,7 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div onClick={this.handleLinkClick} className="topic-block">
+                <div className="topic-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>A Good Comunicator</h3>
@@ -147,7 +153,7 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div onClick={this.handleLinkClick} className="topic-block">
+                <div className="topic-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>A Problem Solver</h3>
@@ -172,7 +178,7 @@ export default class Home extends Component {
                   </div>
                 </div>
 
-                <div onClick={this.handleLinkClick} className="topic-block">
+                <div className="topic-block">
                   <div>
                     <div className="topic-introduction">
                       <h3>Creative</h3>
