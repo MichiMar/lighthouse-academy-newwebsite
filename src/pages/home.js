@@ -28,9 +28,10 @@ export default class Home extends Component {
             <div className="summary-images">
               <div className="images-wrapper-upper-block">
                 <div onClick={this.handleLinkClick} className="topic-block">
-                  <h3>Confident</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>Confident</h3>
+
                       <div className="p1">
                         <h5>
                           Practical life activities develop organization and
@@ -57,9 +58,9 @@ export default class Home extends Component {
                 </div>
 
                 <div onClick={this.handleLinkClick} className="topic-big-block">
-                  <h3>Enthusiastic life-long learner</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>Enthusiastic life-long learner</h3>
                       <div className="p1">
                         <h4>
                           Cultural experiences in geography, history, zoology,
@@ -90,9 +91,9 @@ export default class Home extends Component {
 
               <div className="images-wrapper-lower-block">
                 <div onClick={this.handleLinkClick} className="topic-block">
-                  <h3>Emotionally Intelligent</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>Emotionally Intelligent</h3>
                       <div className="p1">
                         <h5>
                           Peace education helps children learn to contribute,
@@ -119,9 +120,9 @@ export default class Home extends Component {
                 </div>
 
                 <div onClick={this.handleLinkClick} className="topic-block">
-                  <h3>A Good Comunicator</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>A Good Comunicator</h3>
                       <div className="p1">
                         <h5>
                           Language used to connect and belong through listening,
@@ -130,14 +131,14 @@ export default class Home extends Component {
                         </h5>
                       </div>
                       <div className="p2">
-                        <h5>
+                        <h6>
                           “We await the successive births in the soul of the
                           child. We give all possible material, that nothing may
                           lack to the growing soul, and then we watch for the
                           perfect faculty to come, safeguarding the child from
                           interruption so that it may carry its efforts
                           through.” – Maria Montessori
-                        </h5>
+                        </h6>
                       </div>
                     </div>
                     <div className="image">
@@ -147,9 +148,9 @@ export default class Home extends Component {
                 </div>
 
                 <div onClick={this.handleLinkClick} className="topic-block">
-                  <h3>A Problem Solver</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>A Problem Solver</h3>
                       <div className="p1">
                         <h4>
                           Math exercises that are challenging, understandable
@@ -172,9 +173,9 @@ export default class Home extends Component {
                 </div>
 
                 <div onClick={this.handleLinkClick} className="topic-block">
-                  <h3>Creative</h3>
                   <div>
                     <div className="topic-introduction">
+                      <h3>Creative</h3>
                       <div className="p1">
                         <h5>
                           Cultural experiences in geography, history, zoology,

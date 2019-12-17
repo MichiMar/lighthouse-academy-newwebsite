@@ -15,19 +15,54 @@ import { FaBars } from "react-icons/fa";
 import "./styles/main.scss";
 import NavigationContainer from "./navigation/navigation-container";
 
+class ToggleBar extends React.Component {
+  constructor() {
+    // @ts-ignore
+    super();
+
+    this.state = {
+      navside: false
+    };
+    this.toggleNavSide = this.toggleNavSide.bind(this);
+  }
+
+  toggleNavSide() {
+    this.setState({
+      navside: !this.state.navside
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <div className="bars-menu" onClick={this.toggleNavSide}>
+          <FaBars />
+        </div>
+
+        {this.state.navside ? (
+          <div className="media-navbar">
+            <div className="b">
+              <NavigationContainer />
+            </div>
+          </div>
+        ) : null}
+
+        <div className="navbar">
+          <div className="b">
+            <NavigationContainer />
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
 function App() {
   return (
     <div className="App">
       <div className="App-container">
         <Router>
-          <div className="navbar">
-            <div className="b">
-              <NavigationContainer />
-            </div>
-          </div>
-          <div className="bars-menu">
-            <FaBars />
-          </div>
+          <ToggleBar />
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
