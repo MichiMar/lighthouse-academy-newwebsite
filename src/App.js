@@ -88,7 +88,7 @@ function App() {
               <Route path="/social-studies" component={SocialStudies} />
               <Route path="/technology-and-sensorial" component={Technology} />
               <Route path="/mathematics" component={Mathematics} />
-              <Route path="/languajes" component={Languages} />
+              <Route path="/languages" component={Languages} />
               <Route path="/geography" component={Geography} />
               <Route path="/peace-education" component={PeaceEducation} />
             </Switch>

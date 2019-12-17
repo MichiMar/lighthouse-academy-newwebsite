@@ -7,11 +7,11 @@ const NavigationContainer = props => {
   return (
     <div className="nav-wrapper">
       <div className="title-wrapper">
-        <Link to="/">
-          <div className="logo">
+        <div className="logo">
+          <Link to="/">
             <img src={Logo} />
-          </div>
-        </Link>
+          </Link>
+        </div>
 
         <div className="academy-name">
           <h1>Lighthouse Montessori Academy</h1>

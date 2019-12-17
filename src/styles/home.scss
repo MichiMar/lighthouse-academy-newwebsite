@@ -1,6 +1,7 @@
 .page-container {
   display: flex;
   flex-direction: column;
+  margin-left: 1.5%;
 
   .container {
     display: flex;
@@ -40,7 +41,24 @@
       .summary-images {
         display: grid;
         text-align: center;
+        width: calc(100vw - 180px);
         grid-gap: 2%;
+
+        h6,
+        h5,
+        h4,
+        h3 {
+          margin: 5px;
+        }
+
+        h3 {
+          text-shadow: 1px 2px 2px;
+        }
+
+        a {
+          color: $principal-dark;
+          text-decoration: none;
+        }
 
         .images-wrapper-upper-block {
           display: grid;
@@ -50,24 +68,24 @@
           .topic-block {
             background-color: rgba(163, 163, 163, 0.36);
             border-radius: 8px;
-            height: 39vh;
-            width: 22.5vw;
+            height: 50vh;
+            width: 21vw;
             overflow: hidden;
             position: relative;
             cursor: pointer;
 
             .image {
               img {
-                height: 39vh;
-                width: 22.5vw;
+                height: 50vh;
+                width: 21vw;
                 object-fit: fill;
               }
             }
 
             .topic-introduction {
               display: none;
-              height: 39vh;
-              width: 22.5vw;
+              height: 50vh;
+              width: 21vw;
               font-size: auto;
               background-color: #fcfef47e;
               position: absolute;
@@ -84,6 +102,7 @@
                 flex-direction: column;
                 color: $marfil;
                 background-color: #3d3d3de0;
+                line-height: 1.5;
               }
             }
           }
@@ -91,7 +110,7 @@
           .topic-big-block {
             background-color: rgba(163, 163, 163, 0.36);
             border-radius: 8px;
-            height: 39vh;
+            height: 50vh;
             width: 70vw;
             overflow: hidden;
             position: relative;
@@ -100,16 +119,17 @@
             .topic-introduction {
               display: none;
               position: absolute;
-              height: 39vh;
-              width: 75vw;
+              line-height: 1.5;
+              height: 50vh;
+              width: 70vw;
               background-color: #fcfef47e;
             }
 
             .big-image {
               padding: 3px;
               img {
-                height: 39vh;
-                width: 75vw;
+                height: 50vh;
+                width: 70vw;
               }
             }
 
@@ -133,29 +153,26 @@
           .topic-block {
             background-color: rgba(163, 163, 163, 0.36);
             border-radius: 8px;
-            height: 39vh;
-            width: 22.5vw;
-            overflow: hidden;
+            height: 42vh;
+            width: 21vw;
+            overflow: scroll;
             position: relative;
             cursor: pointer;
 
             img {
-              height: 39vh;
-              width: 22.5vw;
+              height: 42vh;
+              width: 21vw;
+              overflow: hidden;
             }
 
             .topic-introduction {
               display: none;
-              height: 39vh;
-              width: 22.5vw;
+              height: 42vh;
+              width: 21vw;
+
               background-color: #fcfef47e;
               position: absolute;
-
-              h6,
-              h5,
-              h4 {
-                margin: 5px;
-              }
+              line-height: 1.5;
             }
 
             &:hover {
@@ -182,9 +199,11 @@
               height: 70vh;
               margin-bottom: 15px;
 
-              img {
-                width: 100vw;
-                height: 70vh;
+              .image {
+                img {
+                  width: 100vw;
+                  height: 70vh;
+                }
               }
 
               .topic-introduction {
@@ -198,9 +217,11 @@
               width: 100vw;
               height: 70vh;
 
-              img {
-                width: 100vw;
-                height: 70vh;
+              .big-image {
+                img {
+                  width: 100vw;
+                  height: 70vh;
+                }
               }
 
               .topic-introduction {

@@ -1,5 +1,4 @@
 .App {
-  font-family: "Quicksand", sans-serif;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -15,7 +14,8 @@
 }
 
 .navbar {
-  width: 200px;
+  width: 170px;
+  height: 110vh;
   padding: 5px;
   display: flex;
   flex-direction: column;

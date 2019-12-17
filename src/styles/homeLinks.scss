@@ -1,0 +1,17 @@
+.peace-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.7vw;
+
+  .header {
+    color: $principal-dark;
+  }
+
+  .peace-container {
+    color: $black;
+  }
+
+  @media (max-width: 900px) {
+    margin: 0;
+  }
+}

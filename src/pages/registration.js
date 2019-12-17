@@ -10,11 +10,8 @@ export default class Registration extends Component {
           <ol>
             <li>
               Go over the{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfPnKQnzaFTQPhQHoYfPfh8qEAJu7CUWQYryvUl23r2Ncczaw/viewform"
-                target="blank"
-              >
-                Application
+              <a href="https://docs.google.com/document/d/1To1AAkVmQaRhCJJSNcit1aWoVFcAAu7ZkFJkXpkWx3E/edit">
+                Parent Handbook
               </a>
             </li>
 
