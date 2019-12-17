@@ -3,435 +3,93 @@ import React from "react";
 const Mathematics = () => {
   return (
     <div className="math-container">
-      <div className="">
+      <div className="header">
         <h1>Math</h1>
       </div>
       <div className="container">
         <p>
-          Through practical life activities, children of all ages develop both
-          the skills and the knowledge to participate in their social
-          surroundings effectively. These activities also promote a sense of
-          understanding for human traditions and the overall human experience of
-          providing solutions to the challenges of shelter, food, and rest.
+          Students first work with concrete activities and then progress
+          gradually towards abstract concepts. Work may include arithmetic,
+          fractions, geometry, and algebra. Math begins with simple number
+          recognition, and is later followed by complex equations.
         </p>
         <p>
-          Children refine their social skills in groups and intuitively work at
-          being independent. The "me do it" attitude is good. The Montessori
-          class on practical life and history studies and channels this human
-          desire to take care of one’s basic needs.
-        </p>
-        <p>
-          Many of the practical life activities in the cultural studies include
-          fun cultural works. For example, during our studies of Asia, children
-          may use chopsticks to transfer food. This activity would help the
-          children develop their fine motor skills, while at the same time
-          giving them an experience that connects them to Asia, and the people's
-          of the past who developed such tool. They may learn to cook a
-          traditional dish or wear a special item for a celebration.
-        </p>
-        <p>
-          During the year we will develop skills for practical life activities
-          as we journey through time around the world. Our students will learn
-          about ancient peoples and how different human societies have satisfied
-          their basic human needs with the materials that were available to them
-          according to the resources available in their environments, their
-          climate and culture. We will go in a journey through time around the
-          world. We will visit the ancient Egyptian civilizations and the
-          pharaohs, the Greeks, Ancient China, Middle Ages, Renaissance, Ancient
-          American Civilizations and the Colonization, the founding Fathers. We
-          will experience their cultures, music, food, utensils, stories and
-          traditions.
+          The process is taught first, and the facts later. Our program is set
+          up to help develop a sense of order, coordination, concentration, and
+          independence. Numbers through ten, decimal system, linear and skip
+          counting, tables of arithmetic, abstract equations, fractions.
         </p>
 
         <div className="image">
-          <img src="#" />
+          <img src="http://2.bp.blogspot.com/-yg6FRdrfapY/VYdLClbS2aI/AAAAAAAAhg0/wgosHGwJ2qw/s1600/20150608_130028.jpg" />
           <p>
             Lighthouse Montessori Academy children grind corn as a practical
             life activity as they study Native Americans
           </p>
         </div>
 
-        <div className="subheader">
-          <h2>Introduction</h2>
+        <p>
+          Our Montessori classes consist of lessons that help students
+          understand and know how to use math, versus just memorizing and
+          regurgitating meaningless facts. Maria Montessori, a doctor with great
+          understanding of human brain development, and an inquisitive learner
+          of physical science herself, developed a math philosophy and
+          curriculum that has been embraced by everyone.
+        </p>
+        <p>
+          During class time, children may choose to work in groups or
+          individually. The teacher, called "guide" hels the students use
+          materials and math games.
+        </p>
+        <p>
+          Math is fascinating. Sadly, because of negative past emotional
+          experiences, some people hate it. But it need not be that way! The
+          math concepts we are taught developed as we humans tried to come up
+          with a tool to understand the natural world around us. If we take a
+          hold of math as that, as a tool that can help us discover and
+          understand, there will be fun in place of trauma.
+        </p>
+        <p>
+          For example, upon reading that there are only about 400 Siberian
+          tigers left in the wild, young child uses the Montessori golden bead
+          material to visualize how many 400 units looks like.
+        </p>
+        <p>
+          The concrete Montessori materials are meant to help children, and
+          often adults, make sense of math, and walk the child from the concrete
+          to the abstract. It is important to let the child lead, making
+          invitations to interact and play together, and creating a positive
+          environment, children are bound to enjoy it! Here's an intro to this
+          philosophy. Montessori children enjoy math!
+        </p>
+        <p>
+          Each child's progress is tracked, and presentations of new concepts
+          are given according to the child's readiness. Montessori math in the
+          elementary level is truly comprehensive. For example, it includes the
+          decimal system, all fraction equations, long and short division and
+          multiplication, square roots, cubing, Pythagoras theorem, geometry,
+          trigonometry, and algebra.
+        </p>
+        <p>
+          Our Montessori early childhood (ages 2-6) class are designed to help
+          spark the child's interest and understanding in areas of numbers to
+          ten, decimal system, linear and skip counting, tables of arithmetic,
+          passage to abstraction and fractions. <br />
+          <a href="http://www.infomontessori.com/mathematics/introduction.htm">
+            {" "}
+            Detailed lesson plans can be found here.{" "}
+          </a>
+        </p>
+
+        <div className="footer">
+          <footer className="footer-wrapper">
+            <div className="footer-copyright">
+              <p>&copy;LightHouse Montessori Academy</p>
+              <p>Phone: (385) 237-5437</p>
+              <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
+            </div>
+          </footer>
         </div>
-
-        <div className="link-list-wrapper-upper-block">
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-mat.htm">
-                    Carrying a Mat
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-unrolling-a-mat.htm">
-                    {" "}
-                    Unrolling/Rolling a Mat
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-chair.htm">
-                    {" "}
-                    Carrying a Chair
-                  </a>
-                </li>
-
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-sit-and-stand-from-a-chair.htm">
-                    {" "}
-                    Sit and Stand from a Chair
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-table.htm">
-                    Carrying a Table
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-tray.htm">
-                    Carrying a Tray
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-jug.htm">
-                    Carrying a Jug
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-removing-tray.htm">
-                    Geometric Cabinet Tray
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-carrying-a-sharp-object.htm">
-                    Carrying a Sharp object
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-opening-a-door.htm">
-                    Opening a Door
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-removing-books.htm">
-                    Removing a Book
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-opeing-a-book.htm">
-                    Opening a Book
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-turning-pages-of-a-book.htm">
-                    Turning pages of a Book
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-opening-bottles.htm">
-                    {" "}
-                    Opening Bottles
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-opening-boxes.htm">
-                    Opening Boxes
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-folding-cloths.htm">
-                    Folding Cloths
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-spooning-grains.htm">
-                    Spooning Grains
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/preliminary-exercises-pouring.htm">
-                    {" "}
-                    Pouring Grains
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Care ofthe person</h3>
-              <a href="http://www.infomontessori.com/practical-life/care-of-the-person-washing-hands.htm">
-                Washing Hands
-              </a>
-            </div>
-            <div className="links">
-              <h3>Dressing Frame</h3>
-              <ul>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-button.htm">
-                    Button
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-snaps.htm">
-                    {" "}
-                    Snaps
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-hooks-and-eye.htm">
-                    {" "}
-                    Hook and eye
-                  </a>
-                </li>
-
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-zipper.htm">
-                    Zipper
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-buckle.htm">
-                    Buckle
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-bow.htm">
-                    Bow
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-lacing.htm">
-                    Lacing
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-safety-pins.htm">
-                    Safety Pins
-                  </a>
-                </li>
-              </ul>
-              <a href="http://www.infomontessori.com/practical-life/care-of-the-person-polishing-shoes.htm">
-                Polishing shoes
-              </a>
-              <a href="http://www.infomontessori.com/practical-life/care-of-the-person-preparing-a-snack.htm">
-                Preparing a Snak
-              </a>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="link-list-wrapper-lower-block">
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="footer">
-        <footer className="footer-wrapper">
-          <div className="footer-copyright">
-            <p>&copy;LightHouse Montessori Academy</p>
-            <p>Phone: (385) 237-5437</p>
-            <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
-          </div>
-        </footer>
       </div>
     </div>
   );

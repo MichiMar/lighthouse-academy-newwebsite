@@ -166,14 +166,21 @@ const SocialStudies = () => {
           <div className="list-wrapper">
             <div className="list-title">
               <h3>Care ofthe person</h3>
+            </div>
+            <div className="links">
               <li>
                 <a href="http://www.infomontessori.com/practical-life/care-of-the-person-washing-hands.htm">
                   Washing Hands
                 </a>
               </li>
             </div>
+
+            <div className="list-wrapper">
+              <div className="list-title">
+                <h3>Dressing Frame</h3>
+              </div>
+            </div>
             <div className="links">
-              <h3>Dressing Frame</h3>
               <ul>
                 <li>
                   <a href="http://www.infomontessori.com/practical-life/care-of-the-person-dressing-frame-button.htm">
