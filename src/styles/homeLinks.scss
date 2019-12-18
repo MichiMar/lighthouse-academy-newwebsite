@@ -18,6 +18,9 @@
   }
 
   @media (max-width: 900px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     img {
       width: 100vw;
@@ -86,6 +89,9 @@
 
     @media (max-width: 900px) {
       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       .link-list-wrapper-lower-block {
         display: flex;
@@ -133,6 +139,10 @@
 
   @media (max-width: 900px) {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     img {
       width: 100vw;
     }
@@ -196,6 +206,72 @@
 
   @media (max-width: 900px) {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100vw;
+    }
+  }
+}
+
+.english-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $black;
+  margin-right: 1.7vw;
+  margin-left: 1.7vw;
+
+  .header {
+    @include base-title();
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 900px) {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100vw;
+    }
+  }
+}
+
+.spanish-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $black;
+  margin-right: 1.7vw;
+  margin-left: 1.7vw;
+
+  .header {
+    @include base-title();
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 900px) {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     img {
       width: 100vw;
     }

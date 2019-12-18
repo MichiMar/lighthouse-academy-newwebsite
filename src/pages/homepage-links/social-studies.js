@@ -238,207 +238,99 @@ const SocialStudies = () => {
               </ul>
             </div>
           </div>
+          {/* 
 
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
+          Care of The Environment
+ 
+ 
+Washing a Chalkboard
+ 
+ 
+Dusting a Table
+ 
+ 
+Washing a Table
+ 
+ 
+Polishing Wood
+ 
+ 
+Polishing Glass
+ 
+ 
+Arranging Flowers
+ 
+ 
+Washing Cloths
+ 
+ 
+Setting a Table
+ 
+ 
+Sweeping
+ 
+ 
+Wet Mopping
+ 
+ 
+Dust Mopping
+ 
+ 
+Outdoor Sweeping
+ 
+ 
+ 
+ 
+ 
+Grace and Courtesy
+ 
+ 
+Introduction
+ 
+ 
+Greeting a Person
+ 
+ 
+Thank You
+ 
+ 
+Excuse Me
+ 
+ 
+Introduction of One's Self
+ 
+ 
+Yawning
+ 
+ 
+Coughing
+ 
+ 
+Interrupting
+ 
+ 
+Offering Help
+ 
+ 
+Expressing Admiration
+ 
+ 
+ 
+ 
+ 
+Control of Movement
+ 
+ 
+Walking on the Line
+ 
+ 
+Silence Game
+ 
 
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+         
+*/}
 
-        <div className="link-list-wrapper-lower-block">
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="footer">
+          {/* <div className="footer">
         <footer className="footer-wrapper">
           <div className="footer-copyright">
             <p>&copy;LightHouse Montessori Academy</p>
@@ -446,6 +338,8 @@ const SocialStudies = () => {
             <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
           </div>
         </footer>
+      </div> */}
+        </div>
       </div>
     </div>
   );

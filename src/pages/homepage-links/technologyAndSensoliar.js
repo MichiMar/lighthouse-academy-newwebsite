@@ -122,197 +122,9 @@ const Technology = () => {
             a pompom result in different speeds.
           </p>
         </div>
-
-        <div className="subheader">
-          <h2>Introduction</h2>
-        </div>
-
-        <div className="link-list-wrapper-upper-block">
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="link-list-wrapper-lower-block">
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="list-wrapper">
-            <div className="list-title">
-              <h3>Preliminary Excercises</h3>
-            </div>
-            <div className="links">
-              <ul>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
 
-      <div className="footer">
+      {/* <div className="footer">
         <footer className="footer-wrapper">
           <div className="footer-copyright">
             <p>&copy;LightHouse Montessori Academy</p>
@@ -320,9 +132,69 @@ const Technology = () => {
             <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
           </div>
         </footer>
-      </div>
+      </div> */}
     </div>
   );
 };
 
 export default Technology;
+
+// Introduction
+
+// Three Period Lesson
+
+// Memory Games
+
+// Visual Sense
+//      Cylinder Blocks
+//      Pink Tower
+//      Brown Stairs
+//      Red Rods
+//      Color Tablets
+//      Geometric Cabinet
+//      Constructive Triangles
+//           Rectangular Triangles
+//           Blue Rectangular Box
+//           Triangular Box
+//           Large Hexagonal Box
+//           Small Hexagonal Box
+//      Geometrical Figures
+//      Sensorial Decanomial
+//      Knobless Cylinders
+//      Binomial Cube
+//      Trinomial Cube
+//      Leaf Cabinet
+
+// Tactile Sense
+//      Sensitizing Fingertips
+//      Touch Boards
+//      Touch Tablets
+//      Fabrics
+
+// Baric Sense
+//      Baric Tablets
+
+// Thermic Sense
+//      Thermic Bottles
+//      Thermic Tablets
+
+// Auditory Sense
+//      Sound Boxes
+//      Bells
+
+// Olfactory Sense
+//      Smelling Jars
+
+// Gustatory Sense
+//      Tasting Bottles
+
+// Stereognostic Sense
+//      Geometric Solids
+//      Sorting Trays
+//      Mystery Bag
+//      Sandpaper Globe
+//      Painted Globe
+//      Puzzle Maps
+//           The World
+//           The Continents
+//           The Country

@@ -1,13 +1,15 @@
 import React from "react";
+import Spanish from "../../cursos/spanish";
+import English from "../../cursos/english";
 
 const Languages = () => {
   return (
     <div className="languages-container">
       <div className="spanish">
-        <h1>Spanish</h1>
+        <Spanish />
       </div>
       <div className="English">
-        <h1>English</h1>
+        <English />
       </div>
     </div>
   );
