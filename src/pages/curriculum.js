@@ -10,13 +10,13 @@ export default class Activities extends React.Component {
       <div className="Topics-wrapper">
         {/* <TopicsAndEducation /> */}
 
+        <Topics />
+
         <form className="ages">
-          <Link to="/ages" className="btn">
+          <Link to="/ages" className="topic-link">
             Ages Information
           </Link>
         </form>
-
-        <Topics />
       </div>
     );
   }
