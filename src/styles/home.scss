@@ -95,9 +95,8 @@
               }
             }
 
-            &:hover {
+            &:active {
               transition: 1.2s;
-              box-shadow: 15px 15px 70px;
               .topic-introduction {
                 display: flex;
                 flex-direction: column;
@@ -106,6 +105,9 @@
                 background-color: #3d3d3de0;
                 line-height: 1.5;
               }
+            }
+            &:hover {
+              box-shadow: 15px 15px 70px;
             }
           }
 
@@ -135,15 +137,17 @@
               }
             }
 
-            &:hover {
+            &:active {
               transition: 1.2s;
-              box-shadow: 15px 15px 70px;
               .topic-introduction {
                 display: flex;
                 flex-direction: column;
                 color: $marfil;
                 background-color: #3d3d3de0;
               }
+            }
+            &:hover {
+              box-shadow: 15px 15px 70px;
             }
           }
         }
@@ -178,15 +182,18 @@
               line-height: 1.4;
             }
 
-            &:hover {
+            &:active {
               transition: 1.2s;
-              box-shadow: 15px 15px 70px;
               .topic-introduction {
                 color: $marfil;
                 display: flex;
                 flex-direction: column;
                 background-color: #3d3d3de0;
               }
+            }
+
+            &:hover {
+              box-shadow: 15px 15px 70px;
             }
           }
         }

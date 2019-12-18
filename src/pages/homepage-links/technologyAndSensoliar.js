@@ -165,30 +165,6 @@ const Technology = () => {
                 <li>
                   <a href="#">Opening a Door</a>
                 </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -230,30 +206,6 @@ const Technology = () => {
                 <li>
                   <a href="#">Opening a Door</a>
                 </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -285,39 +237,6 @@ const Technology = () => {
                 </li>
                 <li>
                   <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
                 </li>
               </ul>
             </div>
@@ -356,36 +275,6 @@ const Technology = () => {
                 <li>
                   <a href="#">Geometric Cabinet Tray</a>
                 </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Book</a>
-                </li>
-                <li>
-                  <a href="#">Turning pages of a Book</a>
-                </li>
-                <li>
-                  <a href="#"> Opening Bottles</a>
-                </li>
-                <li>
-                  <a href="#">Opening Boxes</a>
-                </li>
-                <li>
-                  <a href="#">Folding Cloths</a>
-                </li>
-                <li>
-                  <a href="#">Spooning Grains</a>
-                </li>
-                <li>
-                  <a href="#"> Pouring Grains</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -396,40 +285,6 @@ const Technology = () => {
             </div>
             <div className="links">
               <ul>
-                <li>
-                  <a href="#">Carrying a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Unrolling/Rolling a Mat</a>
-                </li>
-                <li>
-                  <a href="#"> Carrying a Chair</a>
-                </li>
-
-                <li>
-                  <a href="#"> Sit and Stand from a Chair</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Table</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Jug</a>
-                </li>
-                <li>
-                  <a href="#">Geometric Cabinet Tray</a>
-                </li>
-                <li>
-                  <a href="#">Carrying a Sharp object</a>
-                </li>
-                <li>
-                  <a href="#">Opening a Door</a>
-                </li>
-                <li>
-                  <a href="#">Removing a Book</a>
-                </li>
                 <li>
                   <a href="#">Opening a Book</a>
                 </li>
