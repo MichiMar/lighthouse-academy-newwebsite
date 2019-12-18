@@ -124,7 +124,7 @@ const Technology = () => {
         </div>
       </div>
 
-      {/* <div className="footer">
+      <div className="footer">
         <footer className="footer-wrapper">
           <div className="footer-copyright">
             <p>&copy;LightHouse Montessori Academy</p>
@@ -132,7 +132,7 @@ const Technology = () => {
             <p>E-mail: LighthouseMontessoriAcademy@gmail.com</p>
           </div>
         </footer>
-      </div> */}
+      </div>
     </div>
   );
 };

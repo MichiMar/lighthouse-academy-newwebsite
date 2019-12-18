@@ -9,7 +9,7 @@ export default class MethodInfo extends React.Component {
   render() {
     const opts = {
       height: "390",
-      width: "640",
+      width: "600",
       playerVar: {
         autoplay: 1
       }
@@ -23,7 +23,7 @@ export default class MethodInfo extends React.Component {
 
         <div className="text-content">
           <div className="video-YT">
-            <div>
+            <div className="video">
               <Youtube
                 videoId="GcgN0lEh5IA"
                 opts={opts}
