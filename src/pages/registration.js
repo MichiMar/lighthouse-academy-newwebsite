@@ -19,7 +19,7 @@ export default class Registration extends Component {
               Complete the{" "}
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuFm3sR_blShyG1mWIFb6eCq7Me1PETCQXsjpXAPiVONhuRg/viewform">
                 Registration Form
-              </a>
+              </a>{" "}
               or
             </li>
             <li>
