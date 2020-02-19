@@ -18,7 +18,7 @@ export default class Registration extends Component {
             <li>
               Complete the{" "}
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuFm3sR_blShyG1mWIFb6eCq7Me1PETCQXsjpXAPiVONhuRg/viewform">
-                Registration Form 2019-2020
+                Registration Form
               </a>
               or
             </li>
@@ -34,7 +34,7 @@ export default class Registration extends Component {
               <br />
             </li>
             <li>
-              ecure your spot by paying the $150 Enrollment fee ($100 credited
+              Secure your spot by paying the $150 Enrollment fee ($100 credited
               towards the last month tuition and $50 materials) Venmo preferred
               to Maraly-Frandsen (checks and cash accepted)
             </li>
