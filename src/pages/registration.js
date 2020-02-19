@@ -51,3 +51,5 @@ export default class Registration extends Component {
     );
   }
 }
+
+// *feb-19/20* Cambie la fecha de registro, y Arregle las palabras que estaban mal escritas

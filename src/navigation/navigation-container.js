@@ -61,3 +61,5 @@ const NavigationContainer = props => {
 };
 
 export default withRouter(NavigationContainer);
+
+// *feb-19/20* 'Elimine' la opcion de curriculum a peticion del due;o

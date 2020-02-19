@@ -6,7 +6,7 @@ const Languages = () => {
   return (
     <div className="languages-container">
       <div className="image">
-        <img src={spanishImange}></div>
+        <img src={spanishImange} />
         <div className="spanish">
           <Spanish />
         </div>
